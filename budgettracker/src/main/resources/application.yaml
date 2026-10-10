@@ -32,7 +32,7 @@ management:
 app:
   jwt:
     secret: ${JWT_SECRET:mBWBoI70EktEhCMJZW87mPmZvcf/dDiRWf+mKeDc6Xs=}
-    expiration-ms: 900000
+    expiration-ms: 86400000
 
 logging:
   level:
